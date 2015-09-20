@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
 """This module does some pretty crazy math."""
 
 HAMLET_HOURS = 2 ** 30
@@ -25,7 +26,6 @@ def crazy_math(monkeys, hours, typewriters=None, bananas=None):
     """
     if bananas is None:
         bananas = monkeys
-
     utilization = monkeys / SHIFTS
 
     if typewriters is not None and utilization > typewriters:
